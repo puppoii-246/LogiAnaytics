@@ -1,0 +1,55 @@
+{
+  "network": {
+    "ip": "192.168.1.7",
+    "port": 20108,
+    "socket_timeout": 30,
+    "receive_buffer_size": 1024,
+    "message_idle_ms": 250
+  },
+  "display": {
+    "fullscreen": true,
+    "theme": "dark",
+    "fonts": {
+      "group_title": 24,
+      "counter_title": 60,
+      "token": 65,
+      "company_name": 70
+    },
+    "branding": {
+      "logo_path": "NCS.jpeg",
+      "company_name": "Neurotech Computer Systems Pvt. Ltd."
+    },
+    "groups": [
+      {
+        "id": 1,
+        "name": "Group 1",
+        "counters": [
+          { "id": 1, "name": "Counter 1" },
+          { "id": 2, "name": "Counter 2" },
+          { "id": 3, "name": "Counter 3" },
+          { "id": 4, "name": "Counter 4" },
+          { "id": 5, "name": "Counter 5" },
+          { "id": 6, "name": "Counter 6" },
+          { "id": 7, "name": "Counter 7" },
+          { "id": 8, "name": "Counter 8" },
+          { "id": 9, "name": "Counter 9" },
+          { "id": 10, "name": "Counter 10" },
+          { "id": 11, "name": "Counter 11" },
+          { "id": 12, "name": "Counter 12" }
+        ]
+      }
+    ]
+  },
+  "logging": {
+    "log_level": "INFO",
+    "log_file": "qmds.log",
+    "rotation_policy": {
+      "max_bytes": 10485760,
+      "backup_count": 3
+    }
+  },
+  "application": {
+    "debug_mode": false,
+    "startup_behaviour": "normal"
+  }
+}
